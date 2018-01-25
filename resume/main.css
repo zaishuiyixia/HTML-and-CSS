@@ -1,0 +1,172 @@
+html,
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(87, 243, 94, 0.2);
+}
+
+li {
+    list-style: none;
+}
+
+.page {
+    width: 900px;
+    margin: 60px auto;
+    background-color: #fff;
+    box-shadow: 0 0 5px 2px #888888;
+    border: 1px solid #fff;
+}
+
+.sections {
+    margin-top: 60px;
+    position: relative;
+    margin-left: 30px;
+}
+
+div.name-intro:before {
+    content: '';
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490166369452&di=d53ae1c8a4f59fbcc1ea96fa1efbf330&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fpic%2Fitem%2Ff7246b600c33874412f14bc3510fd9f9d72aa05d.jpg);
+    background-position: 73% 10%;
+    float: left;
+}
+
+.name-intro h1 {
+    margin-left: 215px;
+    position: relative;
+    top: 40px;
+}
+
+.name-intro p {
+    margin-left: 198px;
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+}
+
+.cleanfox:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.name-intro {
+    float: left;
+    width: 50%;
+}
+
+.contact-intro {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 25px;
+    left: 60px;
+}
+
+.sections h2 {
+    border-bottom: 2px solid #333;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+.contact-intro h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #333;
+    width: 87%;
+    padding-bottom: 10px;
+}
+
+.sections ul {
+    margin-top: 20px;
+}
+
+.sections li {
+    margin-top: 10px;
+}
+
+span {
+    color: #c3c3c3;
+}
+
+.sections p {
+    margin-top: 10px;
+}
+
+.style {
+    padding-left: 80px;
+    border-left: 2px solid #333;
+    position: relative;
+}
+
+.style li:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    left: -6px
+}
+
+.skills {
+    float: left;
+    width: 50%;
+}
+
+.activities {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+table {
+    margin-top: 20px;
+}
+
+tr td {
+    line-height: 1.8em;
+    padding-right: 80px;
+    padding-bottom: 40px;
+}
+
+.style1 {
+    padding-bottom: 40px;
+}
+
+.style1 h2 {
+    border-bottom: 2px solid #333;
+    width: 80%;
+}
+
+.style2 {
+    margin-left: 80px;
+}
+
+.style3.i-pluscircle:before {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 73px;
+}
+
+.style4.i-pluscircle:before {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 138px;
+}
